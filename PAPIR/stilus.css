@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(89 52 27);
+}
+
+div{
+    width: 650px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    overflow: auto;
+}
+
+.gyartas{
+    width: 625px;
+    background-color: gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.feltalalas{
+    width: 615px;
+    background-color: rgb(92, 92, 92);
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border-spacing: 30px;
+}
+
+.cai{
+    margin: auto;
+    display: block;
+}
+
+.kep{
+    float: left;
+    margin: auto;
+    padding-top: 15px;
+}

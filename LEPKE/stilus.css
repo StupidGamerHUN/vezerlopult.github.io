@@ -1,0 +1,14 @@
+body{
+    background-color:darkslategray;
+}
+div{
+    width: 640px;
+    margin: auto;
+    padding: 15px;
+    overflow: auto;
+    background-image: url(kepek/hatter.jpg);
+}
+
+img{
+    padding: 5px;
+}

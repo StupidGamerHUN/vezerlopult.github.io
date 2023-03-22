@@ -1,0 +1,10 @@
+body{
+    color: #FFFFFF
+}
+div{
+    width: 640px;
+    margin: auto;
+    padding: 10px;
+    overflow: auto;
+    background-color: darkslategray;
+}
