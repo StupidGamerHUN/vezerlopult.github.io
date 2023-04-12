@@ -8,25 +8,25 @@ body {
 
 /* Style the header */
 header {
-  background-color: #DC8CFF; /* */
-  padding: 30px; /* */
-  text-align: center; /* */
-  font-size: 35px; /* */
-  color: white; /* */
+  background-color: #DC8CFF; /* hátterszínt határoz meg */
+  padding: 30px; /* táblázat közti hely */
+  text-align: center; /* szöveg helyezése */
+  font-size: 35px; /* betűméret */
+  color: white; /* szöveg színe */
 }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-  float: left; /* */
-  width: 20%; /* */
-  height: 450px; /* only for demonstration, should be removed */
+  float: left; /* lebegés */
+  width: 20%; /* szélesség */
+  height: 450px; /* magasság */
   background: #DCB4FF; /* */
-  padding: 20px; /* */
+  padding: 20px;
 }
 
 /* Style the list inside the menu */
 nav ul {
-  list-style-type: none; /* */
+  list-style-type: none; /* lista stílus */
   padding: 0px; /* */
 }
 
@@ -40,9 +40,9 @@ article {
 
 /* Clear floats after the columns */
 section::after {
-  content: ""; /* */
-  display: table; /* */
-  clear: both; /* */
+  content: ""; /* tartalom */
+  display: table; /* kijelzés */
+  clear: both; /* tisztáz */
 }
 
 /* Style the footer */
@@ -63,8 +63,8 @@ footer {
 
 /* */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* */
-  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* doboz árnyék */
+  border-radius: 5px; /* rádiusza a táblázatnak */
   padding: 20px;
   background-color: #fff;
   margin: 10px;
@@ -94,13 +94,13 @@ footer {
 }
 
 .btn {
-  display: inline-block;
+  display: inline-block; /* megjelenés */
   background-color: #000;
   color: #fff;
   padding: 20px 30px;
   border-radius: 5px;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; /* animáció */
   width: 140px;
 }
 
@@ -113,9 +113,9 @@ footer {
   text-decoration: none;
   transition: background-color 0.3s ease;
   width: 250px;
-  margin: 5px;
+  margin: 5px; /* tárgyak közti hely */
 }
 
-.btn:hover {
-  background-color: #333;
+.btn2:hover, .card:hover {
+  background-color: rgb(239, 160, 255)
 }
